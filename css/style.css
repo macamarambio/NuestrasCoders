@@ -1,6 +1,15 @@
 h1 {
 	font-family: 'Open Sans', sans-serif;
-	text-decoration: underline;
+}
+
+hr {
+	margin-top: -20px;
+	margin-left: 0;
+	margin-bottom: 20px;
+	width: 135px;
+	height: 2px;
+	background-color: #000;
+
 }
 
 div {
@@ -34,4 +43,9 @@ span {
 	text-align: right;
 	padding: 3px;
 	padding-right: 10px;
+}
+
+div:hover {
+	opacity: 0.8;
+	cursor: pointer;
 }
