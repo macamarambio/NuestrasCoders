@@ -7,18 +7,31 @@ div {
 	position: relative;
 	float: left;
 }
+.coders-up {
+	position: relative;
+}
+.coders-down {
+  position: relative;
+  top: 220px;
+  right: 660px;
+}
 img {
-	margin-right: 25px;
-	margin-bottom: 25px;
+	margin-right: 20px;
+	margin-bottom: 20px;
 }
 
 span {
-	width: 200px;
-    position: absolute;
-    bottom: 45px;
-    float: left;
-    background-color: gray;
-    color: #fff;
-    font-family: 'Open Sans', sans-serif;
-    text-align: right;
-   }
+	width: 188px;
+	position: absolute;
+	right: 20px;
+	top: 175px;
+	background-color: gray;
+	opacity: 0.8;
+	font-size: 14px;
+	color: #fff;
+	text-shadow: 2px 0px #000;
+	font-family: 'Open Sans', sans-serif;
+	text-align: right;
+	padding: 3px;
+	padding-right: 10px;
+}
